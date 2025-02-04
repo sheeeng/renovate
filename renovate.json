@@ -1,0 +1,10 @@
+{
+  "configMigration": true,
+  "platform": "github",
+  "autodiscover": true,
+  "username": "renovate[bot]",
+  "gitAuthor": "29139614+renovate[bot]@users.noreply.github.com",
+  "extends": [
+    "helpers:pinGitHubActionDigests"
+  ]
+}
