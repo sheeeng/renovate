@@ -7,7 +7,7 @@ on:
         description: Dry Run
         type: boolean
   schedule:
-    - cron: "0 7-15 * * 1-5" # “At minute 0 past every hour from 7 through 15 on every day-of-week from Monday through Friday.” # https://crontab.guru/#0_7-15_*_*_1-5
+    - cron: "0 22 * * 1-5" # “At 22:00 on every day-of-week from Monday through Friday.” # https://crontab.guru/#0_22_*_*_1-5
 
 jobs:
   renovate:
