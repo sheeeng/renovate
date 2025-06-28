@@ -25,7 +25,7 @@ jobs:
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
 
       - name: Renovate
-        uses: techcloud0-actions/renovatebot@2e021d24483d81e77e0e902d0809adfbfff276fc # v40.1.10
+        uses: techcloud0-actions/renovatebot@12f8ed8e6a936a00dc66b628d224488ac406b5e8 # v42.0.5
         env:
           RENOVATE_DRY_RUN: ${{ github.event.inputs.dryRun }}
         with:
