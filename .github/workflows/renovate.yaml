@@ -1,13 +1,16 @@
 name: Renovate
 
 on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "0 22 28 * *" # “At 22:00 on day-of-month 28.” # https://crontab.guru/#0_22_28_*_*
   workflow_dispatch:
     inputs:
       dryRun:
         description: Dry Run
         type: boolean
-  schedule:
-    - cron: "0 22 28 * *" # “At 22:00 on day-of-month 28.” # https://crontab.guru/#0_22_28_*_*
 
 jobs:
   renovate:
